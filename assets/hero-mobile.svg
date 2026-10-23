@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="650" height="410" viewBox="0 0 650 410" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">mkktop — Code. Connect. Create.</title>
+  <desc id="desc">A mobile neon profile cover for mkktop, building embedded systems, desktop apps and AI tools.</desc>
+  <defs>
+    <linearGradient id="bg" x2="650" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#191333"/><stop offset=".6" stop-color="#10152B"/><stop offset="1" stop-color="#0A242D"/></linearGradient>
+    <linearGradient id="accent" x2="650" y2="410" gradientUnits="userSpaceOnUse"><stop stop-color="#AD8BFA"/><stop offset=".55" stop-color="#DEA1F5"/><stop offset="1" stop-color="#65E4DA"/></linearGradient>
+    <linearGradient id="name" x1="40" y1="130" x2="580" y2="240" gradientUnits="userSpaceOnUse"><stop stop-color="#FAF6FF"/><stop offset=".55" stop-color="#D2BBFF"/><stop offset="1" stop-color="#73EBE1"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#9E66EF" stop-opacity=".17"/><stop offset="1" stop-color="#9E66EF" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#CAB6FF" stroke-opacity=".05"/></pattern>
+    <clipPath id="bounds"><rect x="1" y="1" width="648" height="408" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    @keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+    @media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="650" height="410" fill="url(#bg)"/>
+    <ellipse cx="210" cy="130" rx="370" ry="280" fill="url(#light)"/>
+    <rect width="650" height="410" fill="url(#grid)"/>
+    <path d="M0 1h650" stroke="url(#accent)" stroke-width="3"/>
+    <g class="mono" font-size="11" letter-spacing="1.5">
+      <path d="m41 38 6 6-6 6m12 0h7" stroke="#C3A3FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="73" y="48" fill="#BDB2D8">MKKTOP / ENGINEERING LAB</text>
+      <circle class="pulse" cx="600" cy="44" r="4" fill="#6EE5C2"/>
+    </g>
+    <text class="mono" x="40" y="115" font-size="13" letter-spacing="3" fill="#A295BE">HELLO, WORLD_</text>
+    <text class="sans" x="31" y="225" font-size="132" font-weight="800" letter-spacing="-7" fill="url(#name)">mkktop<tspan fill="#BF9AFF">.</tspan></text>
+    <text class="sans" x="40" y="275" font-size="31" font-weight="500" letter-spacing="-.6" fill="#F1EDFF">Code. Connect. Create.</text>
+    <g class="mono" font-size="11" font-weight="600" letter-spacing="1.2">
+      <rect x="40" y="315" width="156" height="34" rx="8" fill="#62E7DF" fill-opacity=".07" stroke="#62E7DF" stroke-opacity=".25"/>
+      <circle cx="57" cy="332" r="3" fill="#62E7DF"/><text x="72" y="336" fill="#8CEBE5">EMBEDDED</text>
+      <rect x="208" y="315" width="156" height="34" rx="8" fill="#B998FF" fill-opacity=".07" stroke="#B998FF" stroke-opacity=".25"/>
+      <circle cx="225" cy="332" r="3" fill="#B998FF"/><text x="240" y="336" fill="#C6AEFF">DESKTOP</text>
+      <rect x="376" y="315" width="156" height="34" rx="8" fill="#FF93C5" fill-opacity=".07" stroke="#FF93C5" stroke-opacity=".25"/>
+      <circle cx="393" cy="332" r="3" fill="#FF93C5"/><text x="408" y="336" fill="#FFAFD3">AI TOOLS</text>
+    </g>
+    <path d="M40 378h530" stroke="url(#accent)" stroke-opacity=".18"/>
+    <circle cx="584" cy="378" r="3" fill="#77DCD5" fill-opacity=".6"/>
+  </g>
+  <rect x=".5" y=".5" width="649" height="409" rx="23.5" stroke="#AEA6E8" stroke-opacity=".2"/>
+</svg>

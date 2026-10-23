@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">mkktop — Code. Connect. Create.</title>
+  <desc id="desc">A neon engineering lab with an animated holographic processor, connecting embedded systems, desktop apps and AI tools.</desc>
+  <defs>
+    <linearGradient id="bg" x1="40" y1="0" x2="1160" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#0C1024"/><stop offset=".52" stop-color="#111027"/><stop offset="1" stop-color="#081B28"/></linearGradient>
+    <linearGradient id="spectrum" x1="48" y1="0" x2="1080" y2="430" gradientUnits="userSpaceOnUse"><stop stop-color="#8B80FF"/><stop offset=".35" stop-color="#E99CFF"/><stop offset=".65" stop-color="#6BE8EF"/><stop offset="1" stop-color="#78F0BF"/></linearGradient>
+    <linearGradient id="name" x1="54" y1="170" x2="538" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#F8F5FF"/><stop offset=".5" stop-color="#D5BDFF"/><stop offset="1" stop-color="#72E8EE"/></linearGradient>
+    <linearGradient id="chip" x1="851" y1="122" x2="1039" y2="306" gradientUnits="userSpaceOnUse"><stop stop-color="#AB8AFF"/><stop offset=".5" stop-color="#61D7F2"/><stop offset="1" stop-color="#63F1CB"/></linearGradient>
+    <linearGradient id="glass" x1="834" y1="154" x2="1026" y2="270" gradientUnits="userSpaceOnUse"><stop stop-color="#A68CFF" stop-opacity=".22"/><stop offset="1" stop-color="#59DCCF" stop-opacity=".04"/></linearGradient>
+    <radialGradient id="purple"><stop stop-color="#9657F8" stop-opacity=".22"/><stop offset="1" stop-color="#9657F8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="cyan"><stop stop-color="#22D3D2" stop-opacity=".19"/><stop offset="1" stop-color="#22D3D2" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#C1B2FF" stroke-opacity=".045"/></pattern>
+    <filter id="glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="bounds"><rect x="1" y="1" width="1198" height="428" rx="24"/></clipPath>
+  </defs>
+  <style>
+    .sans{font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+    .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+    .float{animation:float 7s ease-in-out infinite}
+    .orbit{transform-origin:930px 211px;animation:orbit 45s linear infinite}
+    .pulse{animation:pulse 3s ease-in-out infinite}
+    .trace{stroke-dasharray:10 16;animation:trace 12s linear infinite}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-9px)}}
+    @keyframes orbit{to{transform:rotate(360deg)}}
+    @keyframes pulse{0%,100%{opacity:.45}50%{opacity:1}}
+    @keyframes trace{to{stroke-dashoffset:-156}}
+    @media(prefers-reduced-motion:reduce){.float,.orbit,.pulse,.trace{animation:none}}
+  </style>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="430" fill="url(#bg)"/>
+    <ellipse cx="334" cy="74" rx="490" ry="360" fill="url(#purple)"/>
+    <ellipse cx="1023" cy="283" rx="359" ry="300" fill="url(#cyan)"/>
+    <rect width="1200" height="430" fill="url(#grid)"/>
+    <path d="M0 1H1200" stroke="url(#spectrum)" stroke-width="3"/>
+    <path d="M651 0V430" stroke="#C8B5FF" stroke-opacity=".07"/>
+    <path d="M679 0V430" stroke="#C8B5FF" stroke-opacity=".035"/>
+    <g class="sans" font-size="11" font-weight="600" letter-spacing="2.5">
+      <rect x="48" y="34" width="26" height="26" rx="7" fill="#B49AFF" fill-opacity=".12" stroke="#B49AFF" stroke-opacity=".3"/>
+      <path d="m56 42 5 5-5 5m9 0h3" stroke="#C6AEFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="87" y="51" fill="#B9B4D3">MKKTOP / ENGINEERING LAB</text>
+    </g>
+    <g class="mono" font-size="10" letter-spacing="1.1">
+      <rect x="979" y="34" width="173" height="27" rx="13.5" fill="#66E7C0" fill-opacity=".055" stroke="#66E7C0" stroke-opacity=".2"/>
+      <circle class="pulse" cx="995" cy="47.5" r="3" fill="#74EDC3"/>
+      <text x="1006" y="51" fill="#9BEACF">BUILDING IN PUBLIC</text>
+    </g>
+    <text class="mono" x="52" y="122" font-size="12" letter-spacing="3" fill="#9B8DBB">HELLO, WORLD_</text>
+    <text class="sans" x="44" y="228" font-size="116" font-weight="800" letter-spacing="-6" fill="url(#name)">mkktop<tspan fill="#C69CFF">.</tspan></text>
+    <text class="sans" x="52" y="275" font-size="30" font-weight="500" letter-spacing="-.6" fill="#F1EDFF">Code. Connect. Create.</text>
+    <text class="mono" x="53" y="308" font-size="12" letter-spacing=".4" fill="#8C98B6">From low-level logic to everyday experiences.</text>
+    <g class="mono" font-size="10" font-weight="600" letter-spacing="1.3">
+      <rect x="52" y="350" width="131" height="28" rx="7" fill="#62E7DF" fill-opacity=".07" stroke="#62E7DF" stroke-opacity=".24"/>
+      <circle cx="66" cy="364" r="3" fill="#62E7DF"/><text x="79" y="368" fill="#8CEBE5">EMBEDDED</text>
+      <rect x="194" y="350" width="131" height="28" rx="7" fill="#B998FF" fill-opacity=".07" stroke="#B998FF" stroke-opacity=".24"/>
+      <circle cx="208" cy="364" r="3" fill="#B998FF"/><text x="221" y="368" fill="#C6AEFF">DESKTOP</text>
+      <rect x="336" y="350" width="131" height="28" rx="7" fill="#FF93C5" fill-opacity=".07" stroke="#FF93C5" stroke-opacity=".24"/>
+      <circle cx="350" cy="364" r="3" fill="#FF93C5"/><text x="363" y="368" fill="#FFAFD3">AI TOOLS</text>
+    </g>
+    <g opacity=".65">
+      <circle cx="930" cy="211" r="143" stroke="#9C8BE8" stroke-opacity=".17"/>
+      <circle cx="930" cy="211" r="166" stroke="#75D7E4" stroke-opacity=".10"/>
+      <g class="orbit"><circle cx="930" cy="211" r="143" stroke="#B99AFF" stroke-opacity=".65" stroke-dasharray="36 862"/><circle cx="930" cy="68" r="4" fill="#BAA2FF"/></g>
+      <path d="M723 211h49m316 0h49M930 24v22m0 330v23" stroke="#87C4D8" stroke-opacity=".35"/>
+      <path d="M760 101h37l26 26m252 168 24 24h48M744 309h49l35-35" stroke="#A499E8" stroke-opacity=".28"/>
+      <circle cx="760" cy="101" r="3" fill="#BA98F6"/><circle cx="1147" cy="319" r="3" fill="#64E4D4"/><circle cx="744" cy="309" r="3" fill="#75C9EF"/>
+    </g>
+    <g class="float">
+      <path d="m930 120 107 61v71l-107 62-107-62v-71l107-61Z" fill="#11182F" fill-opacity=".5" stroke="url(#chip)" stroke-opacity=".4"/>
+      <path d="m823 181 107 62 107-62m-107 62v71" stroke="url(#chip)" stroke-opacity=".32"/>
+      <path d="m930 102 107 62-107 62-107-62 107-62Z" fill="url(#glass)" stroke="url(#chip)" stroke-width="1.5"/>
+      <path d="m930 102 107 62-107 62-107-62 107-62Z" stroke="url(#chip)" stroke-width="4" opacity=".22" filter="url(#glow)"/>
+      <path d="m930 128 62 36-62 36-62-36 62-36Z" stroke="url(#chip)" stroke-opacity=".5"/>
+      <path d="m930 139 43 25-43 25-43-25 43-25Z" fill="url(#chip)" fill-opacity=".14"/>
+      <path d="m917 156-14 8 14 8m26-16 14 8-14 8m-10-24-7 32" stroke="#BAEFFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+      <path class="trace" d="m845 202 63 36v51m107-87-63 36v51" stroke="#7BDDDD" stroke-opacity=".65"/>
+      <path d="m846 223 39 23m91 0 39-23m-169 17 39 23m91 0 39-23" stroke="url(#chip)" stroke-opacity=".3"/>
+      <circle cx="930" cy="276" r="5" fill="#7DECCA" fill-opacity=".8"/>
+      <circle class="pulse" cx="930" cy="276" r="10" stroke="#7DECCA" stroke-opacity=".3"/>
+    </g>
+    <g class="mono" font-size="10">
+      <rect x="742" y="336" width="369" height="60" rx="10" fill="#080F20" fill-opacity=".8" stroke="#97A7E1" stroke-opacity=".15"/>
+      <circle cx="759" cy="351" r="2.5" fill="#FF88AB"/><circle cx="769" cy="351" r="2.5" fill="#F2CC80"/><circle cx="779" cy="351" r="2.5" fill="#75DDB3"/>
+      <text x="758" y="378" fill="#6EE4D4">❯<tspan fill="#B5BED9"> firmware </tspan><tspan fill="#AC8EE8">→</tspan><tspan fill="#B5BED9"> interface </tspan><tspan fill="#AC8EE8">→</tspan><tspan fill="#B5BED9"> experience</tspan><tspan class="pulse" fill="#7DECCA">_</tspan></text>
+    </g>
+    <g fill="#CBC5FA"><circle cx="707" cy="77" r="1.5" opacity=".6"/><circle cx="1127" cy="126" r="1.5" opacity=".5"/><circle cx="688" cy="266" r="1" opacity=".5"/><circle cx="1094" cy="281" r="1" opacity=".7"/><circle cx="562" cy="348" r="1.5" opacity=".5"/></g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="429" rx="23.5" stroke="#A4A2E3" stroke-opacity=".16"/>
+</svg>

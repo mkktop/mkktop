@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="142" viewBox="0 0 600 142" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">AetherLink</title><desc id="desc">A modular instrument desktop app with a shared protocol and pluggable device transports.</desc>
+  <defs><linearGradient id="bg" x2="600" y2="142" gradientUnits="userSpaceOnUse"><stop stop-color="#102C32"/><stop offset="1" stop-color="#101D2A"/></linearGradient><linearGradient id="accent" x2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#6FE7D3"/><stop offset="1" stop-color="#75CBF3"/></linearGradient><radialGradient id="light"><stop stop-color="#4CD7BC" stop-opacity=".17"/><stop offset="1" stop-color="#4CD7BC" stop-opacity="0"/></radialGradient></defs>
+  <rect x=".5" y=".5" width="599" height="141" rx="14" fill="url(#bg)" stroke="#80DDD0" stroke-opacity=".15"/>
+  <ellipse cx="506" cy="60" rx="140" ry="115" fill="url(#light)"/>
+  <path d="M25 1h551" stroke="url(#accent)" stroke-opacity=".7"/>
+  <g font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="34" font-size="10" letter-spacing="2.4" font-weight="600" fill="#72BAAF">02 / CONNECTED DEVICES</text><text x="26" y="81" font-size="36" font-weight="700" letter-spacing="-1" fill="#CCF8EB">AetherLink</text><text x="28" y="113" font-size="10" letter-spacing="1.6" fill="#8DAEB1">ONE PROTOCOL. MANY DEVICES.</text></g>
+  <g stroke="url(#accent)" stroke-width="1.5"><rect x="479" y="44" width="50" height="50" rx="12" fill="#6FE7D3" fill-opacity=".07"/><rect x="491" y="56" width="26" height="26" rx="5"/><path d="M479 69h-23V45h-12m85 24h23v24h12M504 44V25m0 69v23" stroke-opacity=".6"/><circle cx="441" cy="45" r="5"/><circle cx="567" cy="93" r="5"/><circle cx="504" cy="23" r="4"/><circle cx="504" cy="119" r="4"/></g>
+</svg>

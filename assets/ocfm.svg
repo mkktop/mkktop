@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="142" viewBox="0 0 600 142" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">OCFM V2</title><desc id="desc">STM32F407 open channel flow meter firmware with FreeRTOS, LVGL and Modbus.</desc>
+  <defs><linearGradient id="bg" x2="600" y2="142" gradientUnits="userSpaceOnUse"><stop stop-color="#30251C"/><stop offset="1" stop-color="#231D28"/></linearGradient><linearGradient id="accent" x2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#F7CE8C"/><stop offset="1" stop-color="#F9A0AB"/></linearGradient><radialGradient id="light"><stop stop-color="#F4BA6F" stop-opacity=".17"/><stop offset="1" stop-color="#F4BA6F" stop-opacity="0"/></radialGradient></defs>
+  <rect x=".5" y=".5" width="599" height="141" rx="14" fill="url(#bg)" stroke="#EDC28F" stroke-opacity=".15"/>
+  <ellipse cx="506" cy="60" rx="140" ry="115" fill="url(#light)"/>
+  <path d="M25 1h551" stroke="url(#accent)" stroke-opacity=".7"/>
+  <g font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="34" font-size="10" letter-spacing="2.4" font-weight="600" fill="#C4A17D">04 / EMBEDDED SYSTEMS</text><text x="26" y="81" font-size="36" font-weight="700" letter-spacing="-1" fill="#FFE7C7">OCFM V2</text><text x="28" y="113" font-size="10" letter-spacing="1.6" fill="#B5A190">MEASURE. COMPUTE. VISUALIZE.</text></g>
+  <g stroke="url(#accent)" stroke-width="1.5" stroke-linecap="round"><path d="M457 60v46a7 7 0 0 0 7 7h82a7 7 0 0 0 7-7V60" stroke-opacity=".5"/><rect x="489" y="25" width="32" height="19" rx="5" fill="#F7CE8C" fill-opacity=".07"/><path d="M505 44v8m-14 9a19 19 0 0 0 28 0m-36 8a30 30 0 0 0 44 0" stroke-opacity=".7"/><path d="M465 89c10-10 20 10 30 0s20 10 30 0 20 10 20 0m-80 13c10-10 20 10 30 0s20 10 30 0 20 10 20 0"/></g>
+</svg>
