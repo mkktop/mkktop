@@ -46,42 +46,40 @@
 <table>
   <tr>
     <td width="50%" valign="top">
+      <a href="https://github.com/mkktop/bilbili_copy"><img src="./assets/weiyu.svg" width="100%" alt="未雨 Weiyu — B 站桌面客户端" /></a>
+      <h3><a href="https://github.com/mkktop/bilbili_copy">未雨 · bilbili_copy</a></h3>
+      <p>基于 Tauri 2 的 B 站桌面客户端，集成视频浏览、内置播放器、多线程下载与断点续传，支持弹幕字幕和批量队列。</p>
+      <p><code>Rust</code> <code>React</code> <code>Tauri 2</code></p>
+      <a href="https://github.com/mkktop/bilbili_copy/releases">下载体验 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/mkktop/bilbili_copy">查看源码</a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/mkktop/Yiben"><img src="./assets/yudu.svg" width="100%" alt="雨读 Yudu — 本地与云盘漫画阅读器" /></a>
+      <h3><a href="https://github.com/mkktop/Yiben">雨读 · Yiben</a></h3>
+      <p>本地与云盘漫画阅读器，支持压缩包、EPUB 和 PDF，打通天翼云盘、115 与 WebDAV，提供离线缓存和阅读进度管理。</p>
+      <p><code>TypeScript</code> <code>React</code> <code>Electron</code></p>
+      <a href="https://github.com/mkktop/Yiben">探索项目 ↗</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <a href="https://github.com/mkktop/super_video"><img src="./assets/rainframe.svg" width="100%" alt="RainFrame — 本地 AI 媒体处理" /></a>
-      <h3><a href="https://github.com/mkktop/super_video">雨帧 · RainFrame</a></h3>
+      <h3><a href="https://github.com/mkktop/super_video">雨帧 · super_video</a></h3>
       <p>视频、图片与漫画的本地 AI 超分工作台。集成模型对比、补帧和批量队列，让画质提升有一套完整流程。</p>
       <p><code>Python</code> <code>Electron</code> <code>AI / Media</code></p>
       <a href="https://github.com/mkktop/super_video/releases">下载体验 ↗</a> &nbsp; · &nbsp; <a href="https://github.com/mkktop/super_video">查看源码</a>
     </td>
     <td width="50%" valign="top">
-      <a href="https://github.com/mkktop/AetherLink"><img src="./assets/aetherlink.svg" width="100%" alt="AetherLink — 模块化仪表上位机" /></a>
-      <h3><a href="https://github.com/mkktop/AetherLink">AetherLink</a></h3>
-      <p>面向多产品的仪表上位机。以设备包驱动界面，通过统一 Modbus 协议与可插拔链路连接不同设备。</p>
-      <p><code>TypeScript</code> <code>Vue 3</code> <code>Electron</code></p>
-      <a href="https://github.com/mkktop/AetherLink">探索项目 ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <a href="https://github.com/mkktop/minimax_tts"><img src="./assets/minimax.svg" width="100%" alt="MiniMax Studio — 多模态 AI 创作工具" /></a>
-      <h3><a href="https://github.com/mkktop/minimax_tts">MiniMax Studio</a></h3>
-      <p>把语音合成、图像生成与音乐创作放进同一个 Web 工作室，支持流式语音、音色复刻和多模态创作。</p>
-      <p><code>JavaScript</code> <code>Node.js</code> <code>WebSocket</code></p>
-      <a href="https://github.com/mkktop/minimax_tts">探索项目 ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <a href="https://github.com/mkktop/OCFM_V2"><img src="./assets/ocfm.svg" width="100%" alt="OCFM V2 — STM32 明渠流量计固件" /></a>
-      <h3><a href="https://github.com/mkktop/OCFM_V2">OCFM V2 · 明渠流量计</a></h3>
-      <p>基于 STM32F407 的流量计固件，涵盖传感器采集、堰槽流量计算、历史记录与 LVGL 图形界面。</p>
-      <p><code>C</code> <code>FreeRTOS</code> <code>LVGL</code> <code>Modbus</code></p>
-      <a href="https://github.com/mkktop/OCFM_V2">探索项目 ↗</a>
+      <a href="https://github.com/mkktop/yusheng"><img src="./assets/yusheng.svg" width="100%" alt="语声 Yusheng — dsh 语音交互插件" /></a>
+      <h3><a href="https://github.com/mkktop/yusheng">语声 · yusheng</a></h3>
+      <p>面向 dsh 生态的语音插件库，串联语音识别、流式合成与 AI 会话，支持独立客户端配置、人设和结构化长期记忆。</p>
+      <p><code>Node.js</code> <code>WebSocket</code> <code>ASR / TTS</code></p>
+      <a href="https://github.com/mkktop/yusheng">探索项目 ↗</a>
     </td>
   </tr>
 </table>
 
 <p align="center">
-  还有这些小工具：<a href="https://github.com/mkktop/mkk_comic">漫画自动下载与管理</a> &nbsp; · &nbsp;
-  <a href="https://github.com/mkktop/STM32F407_bootloader">STM32 Bootloader</a> &nbsp; · &nbsp;
-  <a href="https://github.com/mkktop?tab=repositories">全部仓库 ↗</a>
+  <a href="https://github.com/mkktop?tab=repositories">浏览全部开源项目 ↗</a>
 </p>
 
 <br />

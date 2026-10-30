@@ -4,7 +4,7 @@
   <rect x=".5" y=".5" width="599" height="141" rx="14" fill="url(#bg)" stroke="#A999E6" stroke-opacity=".15"/>
   <ellipse cx="506" cy="60" rx="140" ry="115" fill="url(#light)"/>
   <path d="M25 1h551" stroke="url(#accent)" stroke-opacity=".7"/>
-  <g font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="34" font-size="10" letter-spacing="2.4" font-weight="600" fill="#AE94DE">01 / AI + MEDIA</text><text x="26" y="81" font-size="36" font-weight="700" letter-spacing="-1" fill="#E5DBFF">RainFrame</text><text x="28" y="113" font-size="10" letter-spacing="1.6" fill="#9D9AB5">LOCAL AI SUPER-RESOLUTION</text></g>
+  <g font-family="Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif"><text x="28" y="34" font-size="10" letter-spacing="2.4" font-weight="600" fill="#AE94DE">03 / AI + MEDIA</text><text x="26" y="81" font-size="36" font-weight="700" letter-spacing="-1" fill="#E5DBFF">RainFrame</text><text x="28" y="113" font-size="10" letter-spacing="1.6" fill="#9D9AB5">LOCAL AI SUPER-RESOLUTION</text></g>
   <g stroke="url(#accent)" stroke-width="1.5"><rect x="461" y="34" width="88" height="73" rx="13" fill="#BDA4FF" fill-opacity=".05"/><path d="M452 52V34a9 9 0 0 1 9-9h18m51 0h18a9 9 0 0 1 9 9v18m0 36v18a9 9 0 0 1-9 9h-18m-51 0h-18a9 9 0 0 1-9-9V88" stroke-opacity=".4"/><path d="m495 55 26 15-26 15V55Z" fill="#C4ABFF" fill-opacity=".2" stroke-linejoin="round"/><path d="M469 94h72" stroke-opacity=".35"/></g>
   <circle cx="549" cy="34" r="4" fill="#8DD8FF"/>
 </svg>
