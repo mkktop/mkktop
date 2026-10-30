@@ -88,32 +88,26 @@
 
 ## 03 / 技术栈
 
-<div align="center">
-
-<p><strong>语言与逻辑</strong></p>
-<img src="https://skillicons.dev/icons?i=c,py,ts,js,go,java,bash&amp;theme=dark" alt="C、Python、TypeScript、JavaScript、Go、Java、Bash" />
-
-<p><strong>应用与界面</strong></p>
-<img src="https://skillicons.dev/icons?i=vue,react,electron,nodejs,html,css&amp;theme=dark" alt="Vue、React、Electron、Node.js、HTML、CSS" />
-
-<p><strong>开发与部署</strong></p>
-<img src="https://skillicons.dev/icons?i=linux,docker,git,githubactions,nginx,mysql,redis&amp;theme=dark" alt="Linux、Docker、Git、GitHub Actions、Nginx、MySQL、Redis" />
-
-</div>
-
-<br />
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/stack-mobile-dark.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/stack-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stack-dark.svg" />
+    <img src="./assets/stack-light.svg" width="100%" alt="技术栈：语言与系统、应用与界面、开发与部署；C、Rust、Python、TypeScript、React、Vue、Electron、Tauri、Linux、Docker 等" />
+  </picture>
+</p>
 
 <a name="activity"></a>
 
 ## 04 / 开发足迹
 
 <p align="center">
-  <img width="420" src="https://github-readme-status.sanyue.site/api?username=mkktop&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0b1020&amp;title_color=b9a0ff&amp;icon_color=55e7da&amp;text_color=b8c5db&amp;locale=cn&amp;rank_icon=github&amp;disable_animations=true" alt="mkktop 的 GitHub 开发统计" />
-  <img width="360" src="https://github-readme-status.sanyue.site/api/top-langs/?username=mkktop&amp;layout=compact&amp;hide_border=true&amp;bg_color=0b1020&amp;title_color=b9a0ff&amp;text_color=b8c5db&amp;locale=cn&amp;disable_animations=true" alt="公开仓库的常用语言分布" />
-</p>
-
-<p align="center">
-  <img width="650" src="https://github-readme-streak-stats-rho-lime.vercel.app?user=mkktop&amp;theme=tokyonight&amp;hide_border=true&amp;background=0B1020&amp;ring=B9A0FF&amp;fire=FF83B5&amp;currStreakLabel=55E7DA&amp;sideLabels=B8C5DB&amp;dates=7D8DA8&amp;locale=zh_Hans&amp;date_format=%5BY%20%5DM%20j&amp;disable_animations=true" alt="mkktop 的 GitHub 连续贡献记录" />
+  <picture>
+    <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/activity-mobile-dark.svg" />
+    <source media="(max-width: 600px)" srcset="./assets/activity-mobile-light.svg" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/activity-dark.svg" />
+    <img src="./assets/activity-light.svg" width="100%" alt="GitHub 开发足迹：近一年贡献、连续活跃、公开项目、累计星标与近期贡献趋势，每日更新" />
+  </picture>
 </p>
 
 <br />
